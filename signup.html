@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title> Signup</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <div class="navbar2">
+        <span>
+            Electronics
+        </span>
+        <span>
+            TVs & Appliances
+        </span>
+        <span>
+            Men
+        </span>
+        <span>
+            Women
+        </span>
+        <span>
+            Baby & Kids
+        </span>
+        <span>
+            Home & Furniture
+        </span>
+        <span>
+            Sports, Books & More
+        </span>
+        <span>
+            Flight
+        </span>
+        <span>
+            Offer Zone
+        </span>
+    </div>
+    <div id="box">
+        <div id="inside_box1">
+            <div class="leftbox">
+                <p style="font-size: 25px; font-weight: bold; margin: 20px; color: white; "> Looks like you're new
+                    here!</p>
+                <p style="font-size: 15px; font-weight: bold; margin: 20px; color: white;"> Sign up with your
+                    mobile number to get started</p>
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png"
+                    alt="This is an flipcart Image" style="align-items: center;">
+            </div>
+
+
+            <div class=" rightbox">
+                <div>
+                    <input id="mobileNumber" class="credentialinput" type="number" placeholder="Enter Mobile Number"
+                        style="border-bottom: 2px solid black; outline: 0;" />
+                </div>
+                <div>
+                    <input id="mail" class="credentialinput" type="text" placeholder="Enter Your Mail"
+                        style="border-bottom: 2px solid black;outline: 0" />
+                </div>
+                <div>
+                    <input id="pass" class="credentialinput" type="password" placeholder="Enter Your Passward"
+                        style="border-bottom: 2px solid black;outline: 0" />
+                </div>
+                <p style="font-size: 11px; text-align: center;">By continuing, you agree to Flipkart's Terms of Use and
+                    Privacy Policy.
+                </p>
+                <div style="display: flex; align-items: center;">
+                    <button class="continue" onclick="Signup()">Continue</button>
+                </div>
+                <div style="display: flex; align-items: center;" class="existinguser">
+                    <button 
+                        style=" margin: 10px; border: none; height: 40px; width: 400px;  color: blue; font-weight: bold; font-size: 13px; padding: 10px; border-radius: 7px;"><a
+                            href="./signin.html" style="text-decoration: none; color: blue;" >Existing User? Log
+                            in</a></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    $(function () {
+        $("#container").load("./navbar.html");
+    });
+</script>
+<script src="./signup.js">
+
+</script>

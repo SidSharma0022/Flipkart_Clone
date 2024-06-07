@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./grocery.css">
+</head>
+
+<body>
+    <section>
+        <nav id="navbar">
+            <div id="navbar_items">
+                <span style="font-weight: bolder; font-size: larger;">
+                    Grocery
+                </span>
+                <span style="background-color: white; outline: none; ">
+                    <input type="search" placeholder="Search Grocery Product"
+                        style="border:none; border-radius: 5px; outline: none; width: 500px; align-items: center; height: 35px; ">
+                    <svg width="18" height="16" viewBox="0 0 20 14" class="" xmlns="http://www.w3.org/2000/svg"
+                        style="margin-top: 2px;">
+                        <g fill="#26A541" fill-rule="evenodd">
+                            <path class="q1YVFF EwE-Fa"
+                                d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203">
+                            </path>
+                            <path class="q1YVFF EwE-Fa"
+                                d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467">
+                            </path>
+                        </g>
+                    </svg>
+                </span>
+                <span>
+                    <svg width="12" height="13" viewBox="0 0 5 14" class="" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="white" class="_2kMlEN"
+                            d="M4.2 5.7c-.828 0-1.5-.672-1.5-1.5 0-.398.158-.78.44-1.06.28-.282.662-.44 1.06-.44.828 0 1.5.672 1.5 1.5 0 .398-.158.78-.44 1.06-.28.282-.662.44-1.06.44zm0-5.7C1.88 0 0 1.88 0 4.2 0 7.35 4.2 12 4.2 12s4.2-4.65 4.2-7.8C8.4 1.88 6.52 0 4.2 0z"
+                            fill-rule="evenodd"></path>
+                    </svg>
+                    Deliver to
+                </span>
+                <span>
+                    <button style="width: 90px; height: 30px; border: none; color: #26A541; font-size: medium;"><a href="./signin.html" style=" text-decoration: none; color: #26A541;">
+                        Login</a>
+                    </button>
+                </span>
+                <span>
+                    More
+                </span>
+                <span>
+                    <svg class="GAbRIN" width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path class="cziJ98"
+                            d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86"
+                            fill="#fff"></path>
+                    </svg>
+                    Cart
+                </span>
+                <span class="logo"><a  href="./index.html">
+                        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fk_goto_home_logo_small_5b9cdd.svg"
+                            alt="Flicart logo">
+                    </a>
+                </span>
+
+
+            </div>
+        </nav>
+
+    </section>
+
+    <section id="grocerycategories"></section>
+
+
+    <section>
+        <p style="font-size: 11.8px; background-color: rgba(128, 128, 128, 0.115); color: grey; padding: 10px;">Whether
+            you work from home or office or other workplaces, daily grocery items are a requisite for everybody.
+            Regardless of the size of the family or where you live, one can easily browse for the required food or other
+            daily use products and have them brought to your home. Explore the variety of products, whether oils or
+            foodgrains, from the online stock and choose the quantity required. You can save the time otherwise lost in
+            waiting in lengthy queues for billing and payments by easily adding the chosen items to your cart online.
+            Select the required date for delivery and pay with a suitable payment option. This will help you receive the
+            items whenever you need them and in the available quantity. Essentials needed every day, like spices, daals,
+            sugar, coffee powder, salt, etc., can be easily shopped online and delivered to your home. Other items like
+            cleaning liquids, shower gels, fabric softeners, toothpaste, etc., can also be bought online. Buy grocery
+            and more from brands such as Kellogg’s, Tata Gold, Parle G, Lays, etc. Order the online grocery comfortably
+            from home for timely doorstep delivery. You may also place an order for the comfort and convenience of your
+            loved ones who cannot move out of the house and shop. The information you are reading has been last updated
+            on 02-Jun-24.</p>
+    </section>
+
+    <section>
+        <img src="./add.png" alt="add" style="width: 100%;">
+        <div class="gridcontainer">
+            <div style="width: 70%; padding: 5px;">
+                <img src="./add1.png" alt="foods"
+                    height="400px" width="100%">
+            </div>
+            <div style="width: 30%; padding: 5px;">
+                <div>
+                    <img src="./add2.jpg" alt="foods"
+                        height="200px" width="100%">
+                </div>
+                <div><img src="./add3.jpg" alt="foods"
+                        height="200px" width="100%">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section>
+        <div id="footer">
+
+            <div>
+                <div style="font-size: 11px;" class="heading"> ABOUT</div>
+                <div style="font-size: 11px; display: flex; flex-direction: column; margin-top: 08px;">
+                    <a href=""> Contact Us </a>
+                    <a href=""> About Us</a>
+                    <a href=""> Careers</a>
+                    <a href=""> Flipcart Stories</a>
+                    <a href=""> Press</a>
+                    <a href=""> Corporation Information</a>
+                </div>
+            </div>
+            <div>
+                <div style="font-size: 11px;" class="heading"> GROUP COMPANIES</div>
+                <div style="font-size: 11px; display: flex; flex-direction: column; margin-top: 08px;">
+                    <a href=""> Myntra </a>
+                    <a href=""> Flipcart Wholesale</a>
+                    <a href="">Cleartrip</a>
+                    <a href=""> Shopsy</a>
+                </div>
+            </div>
+            <div>
+                <div style="font-size: 11px;" class="heading"> HELP</div>
+                <div style="font-size: 11px; display: flex; flex-direction: column;margin-top: 08px;">
+                    <a href=""> Payment </a>
+                    <a href=""> Shipping</a>
+                    <a href="">Cancellation & return</a>
+                    <a href=""> FAQ</a>
+                    <a href=""> Report Infringement</a>
+                </div>
+            </div>
+            <div>
+                <div style="font-size: 11px;" class="heading"> CONSUMER POLICY</div>
+                <div style="font-size: 11px; display: flex; flex-direction: column; margin-top: 08px;">
+                    <a href=""> Cancellation & Return </a>
+                    <a href=""> Terms Of Use</a>
+                    <a href="">Security</a>
+                    <a href="">Privacy</a>
+                    <a href="">Sitemap</a>
+                    <a href="">Grievance Redressal</a>
+                    <a href="">ERP Compliance</a>
+
+                </div>
+            </div>
+            <!-- <hr style="width: 0.5px; height:150px; background-color: grey; margin-left: 0px;"> -->
+            <div>
+                <div style="font-size: 11px;" class="heading"> Mail Us</div>
+                <div
+                    style="font-size: 11px; display: flex; flex-direction: column; line-height: 2px; padding-top: 10px; margin-top: 08px;">
+                    <p>Flipkart Internet Private Limited,</p>
+                    <p> Buildings Alyssa, Begonia &</p>
+                    <p>Clove Embassy Tech Village,</p>
+                    <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                    <p>Bengaluru, 560103,</p>
+                    <p>Karnataka, India</p>
+                    <div style="padding-top: 20px; color: grey;;"> Social
+                        <div>
+                            <img style="margin-top: 10px;"
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjkzMzEgMjFDMTcuOTAzNyAyMSAyMS45MzMxIDE2Ljk3MDYgMjEuOTMzMSAxMkMyMS45MzMxIDcuMDI5NDQgMTcuOTAzNyAzIDEyLjkzMzEgM0M3Ljk2MjU0IDMgMy45MzMxMSA3LjAyOTQ0IDMuOTMzMTEgMTJDMy45MzMxMSAxNi45NzA2IDcuOTYyNTQgMjEgMTIuOTMzMSAyMVoiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE2LjY4MzEgOC4yNUgxNS4xODMxQzE0LjU4NjQgOC4yNSAxNC4wMTQxIDguNDg3MDUgMTMuNTkyMSA4LjkwOTAxQzEzLjE3MDIgOS4zMzA5NyAxMi45MzMxIDkuOTAzMjYgMTIuOTMzMSAxMC41VjIxIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjkzMzExIDEzLjVIMTUuOTMzMSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K"
+                                width="21px" alt="facebook Logo">
+                            <img style="margin-top: 10px; margin-left: 10px;"
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE4M18yMCkiPgo8cGF0aCBkPSJNMTMuNTQzNiAxMC42MTc5TDIwLjA5NzEgM0gxOC41NDQxTDEyLjg1MzcgOS42MTQ0OEw4LjMwODg3IDNIMy4wNjY4OUw5LjkzOTY0IDEzLjAwMjNMMy4wNjY4OSAyMC45OTA4SDQuNjE5OTRMMTAuNjI5MSAxNC4wMDU2TDE1LjQyODggMjAuOTkwOEgyMC42NzA4TDEzLjU0MzIgMTAuNjE3OUgxMy41NDM2Wk0xMS40MTY1IDEzLjA5MDRMMTAuNzIwMiAxMi4wOTQ0TDUuMTc5NTMgNC4xNjkxMUg3LjU2NDkxTDEyLjAzNjMgMTAuNTY1MUwxMi43MzI2IDExLjU2MTFMMTguNTQ0OCAxOS44NzQ4SDE2LjE1OTVMMTEuNDE2NSAxMy4wOTA4VjEzLjA5MDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE4M18yMCI+CjxyZWN0IHg9IjMuMDY2ODkiIHk9IjMiIHdpZHRoPSIxNy42MDM5IiBoZWlnaHQ9IjE4IiByeD0iMC4yIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo="
+                                width="21px" alt="Twitter Logo">
+                            <img style="margin-top: 10px; margin-left: 10px;"
+                                src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/YoutubeLogo_958b78.svg"
+                                width="21px" alt="Youtube Logo">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div style="font-size: 11px;" class="heading"> Registered Office Address</div>
+                <div
+                    style="font-size: 11px; display: flex; flex-direction: column; line-height: 2px; padding-top: 10px;margin-top: 08px;">
+                    <p>Flipkart Internet Private Limited,</p>
+                    <p> Buildings Alyssa, Begonia &</p>
+                    <p>Clove Embassy Tech Village,</p>
+                    <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                    <p>Bengaluru, 560103,</p>
+                    <p>Karnataka, India </p>
+                    <p>CIN : U51109KA2012PTC066107</p>
+                    <p> Telephone: <span style="color: rgb(62, 128, 171);">044-45614700 / 044-67415800</span></p>
+                </div>
+            </div>
+
+        </div>
+        <hr style="padding: 0;margin: 0; background-color: grey;">
+        <div id="footer2">
+
+
+            <div>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K"
+                    alt="Become A Seller Logo"> Become a Seller
+            </div>
+            <div>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                    alt="Advertise Logo">
+                Advertise
+            </div>
+            <div>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                    alt="Gift Card Logo">
+                Gift Cards
+            </div>
+            <div>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                    alt="Help Center logo">
+                Help Center
+            </div>
+            <div> &#169; 2007-2024 Flipcart.com</div>
+            <div>
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg"
+                    style="width:300px; height: 20px;">
+            </div>
+        </div>
+    </section>
+    <script src="./grocery.js"></script>
+</body>
+
+</html>

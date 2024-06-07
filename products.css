@@ -1,0 +1,183 @@
+#products{
+    display: flex;
+}
+#Top_Menu span{
+    margin: 5px;
+    padding: 5px;
+    font-size: small;
+    font-weight: 500;
+}
+#collection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 5px;
+}
+#collection div{
+box-shadow: rgba(133, 132, 132, 0.401) 0px 4px 10px;
+}
+
+.Brand{
+    color: black;
+    text-align: center;
+}
+.avtar{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.innerBox{
+    /* display: flex; */
+    text-align: center;
+}
+.type{
+    color: black;
+    text-align: center;
+}
+.price1{
+    font-weight: 250;
+    font-size: 17px;
+}
+.actualprice{
+    font-size: 11px;
+    text-decoration: line-through;
+    margin-left: 4px;
+    color: grey;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.accordion {
+    background-color: #f7f7f7;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;  
+    outline: none;
+    border-radius: 5px;
+    margin: 5px;
+    width: 90%;
+    text-align: start;
+    border: none;
+    padding-right: 10px;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    border-top: 1px solid #ccc;
+}
+
+.panel label {
+    display: block;
+    padding: 4px 0;
+    font-size: 10px;
+}
+
+.search-box {
+    /* width: 100%; */
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.more-link {
+    color: #007BFF;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.more-link:hover {
+    text-decoration: underline;
+}
+@media(min-width:200px) and (max-width:600px){
+    #collection div{
+        width: 150;
+        box-shadow: .2px grey;
+        text-align: center;
+    } 
+    #collection img{
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        padding: 5px;
+        align-content: center;
+    }
+    #collection p{
+        margin: 0px;
+        padding: 0px;
+        font-size: smaller;
+    }
+    .price1{
+        font-size: 10px;
+        font-weight: bolder;
+
+    }
+    .actualprice{
+        font-size: 7px;
+
+    }
+    #collection{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+        height: auto;
+    }
+    #footer{
+        margin-top: 150px;
+    }
+    .innerBox{
+        margin: 0px;
+    }
+    .accordion{
+        font-size: 9px;
+        padding: 0;
+        margin: 0;
+    }
+    .panel label{
+        font-size: 7px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .panel{
+        padding: 0px;
+    }
+    .search-box{
+        width: 90px;
+        height: 15px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .brand{
+        width: 80px;
+        height: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+}

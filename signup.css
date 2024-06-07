@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: .9rem;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#inside_box1 {
+    display: flex;
+    background-color: white;
+    width: 60%;
+    height: 500px;
+    font-family: sans-serif;
+
+}
+
+.leftbox {
+    background-color: rgb(42, 85, 229);
+    color: aliceblue;
+    height: 100%;
+    width: 50%;
+    padding: 40px;
+}
+
+.rightbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+
+}
+
+.credentialinput {
+    border: none;
+    width: 70%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+.continue {
+    margin: 10px; 
+    border: none; 
+    height: 40px; 
+    width: 400px; 
+    background-color: #fb641b; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 17px; 
+    padding: 10px; 
+    border-radius: 7px;
+}
+@media (min-width : 200px) and (max-Width: 600px){
+    .navbar2{
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-rows: 40px 40px;
+        margin: 0;
+        gap: 10px;
+    }
+    .leftbox{
+        display: none;
+    }
+    .credentialinput{
+        margin-left: 0;
+    }
+    .continue{
+        margin: 0;
+        width: 300px;
+    }
+    .existinguser{
+        margin: 0;
+        width: 300px;
+        padding: 0;
+    }
+    .rightbox p {
+        padding: 0;
+    }
+}
