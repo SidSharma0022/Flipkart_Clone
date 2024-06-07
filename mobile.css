@@ -25,6 +25,10 @@
 }
 
 @media only screen and (max-width: 450px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
     #navbar2 {
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
