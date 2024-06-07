@@ -111,7 +111,7 @@ p {
 @media only screen and (max-width: 450px) {
    #nav{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .6fr 1fr;
     /* flex-direction: column; */
     overflow-x: scroll;
    }
